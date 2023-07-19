@@ -13,10 +13,10 @@ class LoginViewViewModel: ObservableObject{
     @Published var password = ""
     @Published var errorMessage = ""
     
-    
+    init(){}
     
     func login(){
-        quard !validate() else{
+        guard validate() else{
             return
         }
         Auth.auth().signIn(withEmail: email, password: password)
