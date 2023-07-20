@@ -17,6 +17,7 @@
 		3BBB74D02A68724100F2FA27 /* ToDoItemsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB74CF2A68724100F2FA27 /* ToDoItemsViewViewModel.swift */; };
 		3BBB74D22A68783E00F2FA27 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB74D12A68783E00F2FA27 /* NewItemViewViewModel.swift */; };
 		3BBB74D42A68808300F2FA27 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB74D32A68808300F2FA27 /* ToDoItem.swift */; };
+		3BBB74D62A69C6DE00F2FA27 /* ToDoItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB74D52A69C6DE00F2FA27 /* ToDoItemViewViewModel.swift */; };
 		3BD0F4C62A65D702005CD354 /* swift_todoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD0F4C52A65D702005CD354 /* swift_todoApp.swift */; };
 		3BD0F4C82A65D702005CD354 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD0F4C72A65D702005CD354 /* MainView.swift */; };
 		3BD0F4CA2A65D704005CD354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD0F4C92A65D704005CD354 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		3BBB74CF2A68724100F2FA27 /* ToDoItemsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemsViewViewModel.swift; sourceTree = "<group>"; };
 		3BBB74D12A68783E00F2FA27 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		3BBB74D32A68808300F2FA27 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		3BBB74D52A69C6DE00F2FA27 /* ToDoItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemViewViewModel.swift; sourceTree = "<group>"; };
 		3BD0F4C22A65D702005CD354 /* swift_todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD0F4C52A65D702005CD354 /* swift_todoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_todoApp.swift; sourceTree = "<group>"; };
 		3BD0F4C72A65D702005CD354 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				3BBB74C92A6841E800F2FA27 /* RegistrationViewViewModel.swift */,
 				3BBB74CF2A68724100F2FA27 /* ToDoItemsViewViewModel.swift */,
 				3BBB74D12A68783E00F2FA27 /* NewItemViewViewModel.swift */,
+				3BBB74D52A69C6DE00F2FA27 /* ToDoItemViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				3BD0F4E32A65E132005CD354 /* ToDoItemsView.swift in Sources */,
 				3B8C42222A6724AD006DA6D6 /* TLButton.swift in Sources */,
 				3BBB74CE2A68453300F2FA27 /* Extensions.swift in Sources */,
+				3BBB74D62A69C6DE00F2FA27 /* ToDoItemViewViewModel.swift in Sources */,
 				3BBB74D02A68724100F2FA27 /* ToDoItemsViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
